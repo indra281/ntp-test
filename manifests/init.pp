@@ -1,4 +1,4 @@
-class ntp inherits ntp::variable {
+class ntp inherits ntp::variables {
 include ntp::install
 
 
