@@ -16,5 +16,12 @@ enable => true,
 
 }
 
+file { '/etc/ntp.conf':
+ensure = present,
+content => template('ntp/ntp.conf.erb'),
+mode => $ntp::mode,
+notify => Service['$::ntp::ntpservice'],
+}
+
 
 }

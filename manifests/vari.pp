@@ -13,5 +13,7 @@ case $::os[ 'family'] {
 }
 
 $package = 'ntp'
+$restrict_ip = '0.0.0.0'
+$mode = '0777'
 
 }
