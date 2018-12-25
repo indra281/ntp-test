@@ -1,5 +1,8 @@
 class ntp::vari {
 
+$restrict_ipv4 = '0.0.0.1'
+$restrict_ipv6 = '::1'
+
 case $::os[ 'family'] {
 'Debian' : {
 
@@ -13,7 +16,7 @@ case $::os[ 'family'] {
 }
 
 $package = 'ntp'
-$restrict_ip = '0.0.0.1'
+
 $mode = '0777'
 
 }
