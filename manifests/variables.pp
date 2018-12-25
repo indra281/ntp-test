@@ -1,4 +1,4 @@
-class variable {
+class variables {
 
 case $::os[ 'family'] {
 'Debian' : {
