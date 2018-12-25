@@ -36,5 +36,5 @@ restrict -4 default kod notrap nomodify nopeer noquery limited
 restrict -6 default kod notrap nomodify nopeer noquery limited
 
 # Local users may interrogate the ntp server more closely.
-restrict<%= @restrict_ipv4 %>
-restrict<%= @restrict_ipv6 %>
+restrict <%= @restrict_ipv4 %>
+restrict <%= @restrict_ipv6 %>
