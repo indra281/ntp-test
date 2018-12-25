@@ -1,4 +1,4 @@
-class install inherits ntp {
+class ntp::install inherits ntp {
 
   package { $ntp::package:
   ensure => latest,

@@ -1,4 +1,4 @@
-class variables {
+class ntp::variables {
 
 case $::os[ 'family'] {
 'Debian' : {
