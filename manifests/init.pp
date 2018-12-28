@@ -1,5 +1,5 @@
 class ntp inherits ntp::vari {
-include ntp::install
+include 'ntp::install'
 
 
 }
