@@ -1,0 +1,2 @@
+ntp::restrict_ipv4: '1.1.1.1'
+ntp::restrict_ipv6: '2.2.2.2'
